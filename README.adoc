@@ -1,0 +1,32 @@
+= Tic-Tac-Toe
+:tic-tac-toe: link:https://en.wikipedia.org/wiki/Tic-tac-toe[Tic-Tac-Toe]
+
+== About
+
+Minimalistic {tic-tac-toe} implementation in https://www.rust-lang.org[Rust].
+
+== Usage
+
+To launch {tic-tac-toe} with
+https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[
+`cargo`], run:
+
+[,bash]
+----
+cargo run
+----
+
+== See Also
+
+* https://github.com/trueNAHO/tic-tac-toe.cc[Minimalistic Tic-Tac-Toe
+  implementation in C++]
+
+== Contributing
+
+To contribute, please review link:docs/contributing.adoc[our contribution
+guidelines].
+
+== License
+
+This project is licensed under link:LICENSE[GNU GENERAL PUBLIC LICENSE Version
+3].
