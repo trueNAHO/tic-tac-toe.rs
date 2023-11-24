@@ -1,4 +1,5 @@
 = Tic-Tac-Toe
+:cargo: link:https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[`cargo`]
 :tic-tac-toe: link:https://en.wikipedia.org/wiki/Tic-tac-toe[Tic-Tac-Toe]
 
 == About
@@ -7,13 +8,22 @@ Minimalistic {tic-tac-toe} implementation in https://www.rust-lang.org[Rust].
 
 == Usage
 
-To launch {tic-tac-toe} with
-https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[
-`cargo`], run:
+=== Run
+
+To launch {tic-tac-toe} with {cargo}, run:
 
 [,bash]
 ----
 cargo run
+----
+
+=== Documentation
+
+To open the documentation with {cargo}, run:
+
+[,bash]
+----
+cargo doc --open
 ----
 
 == See Also
