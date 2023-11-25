@@ -8,5 +8,5 @@ name = "tic_tac_toe"
 path = "src/lib/mod.rs"
 
 [[bin]]
-name = "tic_tac_toe"
+name = "tic-tac-toe"
 path = "src/bin/main.rs"
