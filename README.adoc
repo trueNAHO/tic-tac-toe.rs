@@ -1,5 +1,5 @@
 = Tic-Tac-Toe
-:cargo: link:https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[`cargo`]
+:cargo: link:https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[cargo]
 
 == About
 
@@ -11,7 +11,7 @@ implementation in https://www.rust-lang.org[Rust].
 === Run
 
 To launch https://github.com/trueNAHO/tic-tac-toe.rs[`tic-tac-toe`] with
-{cargo}, run:
+`{cargo}`, run:
 
 [bash]
 ----
@@ -20,7 +20,7 @@ cargo run
 
 === Documentation
 
-To open the documentation with {cargo}, run:
+To open the documentation with `{cargo}`, run:
 
 [bash]
 ----
