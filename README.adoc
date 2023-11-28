@@ -13,7 +13,7 @@ implementation in https://www.rust-lang.org[Rust].
 To launch https://github.com/trueNAHO/tic-tac-toe.rs[`tic-tac-toe`] with
 {cargo}, run:
 
-[,bash]
+[bash]
 ----
 cargo run
 ----
@@ -22,7 +22,7 @@ cargo run
 
 To open the documentation with {cargo}, run:
 
-[,bash]
+[bash]
 ----
 cargo doc --open
 ----
