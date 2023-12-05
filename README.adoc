@@ -46,7 +46,7 @@ cargo doc --open
 == See Also
 
 * https://github.com/trueNAHO/tic-tac-toe.cc[Minimalistic Tic-Tac-Toe
-  implementation in C++]
+  implementation for experimenting with C++]
 
 == Contributing
 
