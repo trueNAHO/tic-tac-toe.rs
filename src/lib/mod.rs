@@ -1,11 +1,5 @@
-pub fn run() {}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn run_return_type() {
-        assert_eq!(run(), ());
-    }
-}
+pub mod board;
+pub mod game;
+pub mod player;
+pub mod player_index;
+pub mod players;
