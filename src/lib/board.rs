@@ -373,7 +373,7 @@ mod tests {
                     .expect(Board::EXPECT_IN_BOUND)
                     .as_ref()
                     .expect(EXPECT_WINNER)
-                    .pipe(|winner| BoardState::Won(winner))
+                    .pipe(BoardState::Won)
             );
         }
 
@@ -398,7 +398,7 @@ mod tests {
                     .expect(Board::EXPECT_IN_BOUND)
                     .as_ref()
                     .expect(EXPECT_WINNER)
-                    .pipe(|winner| BoardState::Won(winner))
+                    .pipe(BoardState::Won)
             );
         }
 
@@ -421,7 +421,7 @@ mod tests {
                     .expect(Board::EXPECT_IN_BOUND)
                     .as_ref()
                     .expect(EXPECT_WINNER)
-                    .pipe(|winner| BoardState::Won(winner))
+                    .pipe(BoardState::Won)
             );
         }
 
@@ -446,7 +446,7 @@ mod tests {
                     .expect(Board::EXPECT_IN_BOUND)
                     .as_ref()
                     .expect(EXPECT_WINNER)
-                    .pipe(|winner| BoardState::Won(winner))
+                    .pipe(BoardState::Won)
             );
         }
     }
