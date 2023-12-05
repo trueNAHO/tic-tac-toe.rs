@@ -1,10 +1,26 @@
 = Tic-Tac-Toe
 :cargo: link:https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[cargo]
+:rust: link:https://www.rust-lang.org[Rust]
+:tic-tac-toe: link:https://en.wikipedia.org/wiki/Tic-tac-toe[Tic-Tac-Toe]
 
 == About
 
-Minimalistic https://en.wikipedia.org/wiki/Tic-tac-toe[Tic-Tac-Toe]
-implementation in https://www.rust-lang.org[Rust].
+Minimalistic {tic-tac-toe} implementation for experimenting with {rust}.
+
+=== Functional Features
+
+* Generic rectangular {tic-tac-toe} board of
+  https://en.wikipedia.org/wiki/M,n,k-game[variable size]
+* Variable player names and marks
+
+=== Non-Functional Features
+
+* {rust} best practices
+* World-class error handling: https://crates.io/crates/thiserror
+* World-class unit testing: https://crates.io/crates/proptest and
+  https://crates.io/crates/quickcheck
+* Zero cost abstraction state machine: https://crates.io/crates/sm
+* Logging: https://crates.io/crates/tracing
 
 == Usage
 
