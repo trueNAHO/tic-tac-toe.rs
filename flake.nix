@@ -1,5 +1,5 @@
 {
-  description = "NAHO's Advent of Code solutions";
+  description = "Minimalistic Tic-Tac-Toe implementation for experimenting with Rust";
 
   inputs = {
     flakeUtils.url = "github:numtide/flake-utils";
